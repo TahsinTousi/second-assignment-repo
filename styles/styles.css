@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header {
+    background: rgba(255, 144, 14, 0.1);
+    width: 100%;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 150px;
+
+
+}
+
+nav ul {
+    display: flex;
+    font-weight: 500;
+    gap: 35px;
+
+
+}
+
+
+nav li {
+    list-style: none;
+    color: #424242;
+
+}
+
+.nav-title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/*------------------------
+    Banner Section
+--------------------------*/
+.banner {
+    text-align: center;
+}
+
+.banner-title {
+    font-size: 55px;
+    /* font-weight: 700; */
+
+}
+
+.banner-text {
+    margin: 20px 200px;
+    color: #424242;
+
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    background: orangered;
+    padding: 20px 25px;
+   
+}
+.btn-primary:hover {
+  
+    background-color: lightseagreen;
+}
+.banner-img {
+    height: 50%;
+    width: 50%;
+    border-radius: 8px;
+    padding: 40px 140px;
+}
+
+/* ------------------------
+    Quick List Section 
+--------------------------- */
+.quick-list {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    margin-top: 80px;
+    margin-left: 160px;
+}
+
+.team-work-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+/* .title {
+    font-size: 45px;
+} */
+
+.description {
+    margin: 24px 0px;
+    font-size: 16px;
+    color: #727272;
+}
+
+.title-design-one {
+    color: #727272;
+}
+
+.title-design-two {
+    color: #131313;
+
+}
+
+.title-design-three {
+    color: #FF900E;
+}
+
+/* --------------------------------
+Features you will love & enjoy
+---------------------------------- */
+
+.feature-section {
+    display: flex;
+    gap: 55px;
+    margin: 100px 140px;
+}
+
+.feature-head {
+    margin-top: 30px;
+}
+
+.feature-title {
+
+    font-weight: 700;
+    font-size: 30px;
+
+}
+
+.feature-box {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+    margin-bottom: 20px;
+    transition: width 1s, height 1s, transform 1s;
+}
+.feature-box:hover{
+    transform: rotate(8deg);
+}
+
+.feature-des {
+    margin: 24px 0px;
+    color: #727272;
+}
+
+.feature-sub-des {
+    margin-top: 10px;
+    color: #727272;
+
+}
+
+.feature-section .feature-img img {
+    width: 550px;
+    height: 100%;
+}
+
+.btn-second {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 30px;
+    border-radius: 5px;
+    border: none;
+    background: orangered;
+    padding: 30px 35px;
+    
+    
+
+}
+
+/* ---------------------------
+    Some Facts Styles
+------------------------------ */
+
+.some-facts-sec {
+    margin: 100px 140px;
+
+}
+.some-facts-des{
+    color: #727272;;
+}
+.some-facts-img {
+    display: flex;
+    text-align: center;
+    gap: 50px;
+    margin-left: 50px;
+      
+}
+
+.add-image {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+    margin-top: 40px;
+    border: 1px solid #FF900E;
+    transition: width 1s, height 1s, transform 1s;
+
+}
+.add-image:hover {
+    width: 120px;
+    height: 120px;
+    transform: rotate(50deg);
+}
+
+.some-score {
+    font-size: 30px;
+    font-weight: 600;
+    color: #424242;
+    margin: 5px 0px;
+
+}
+
+/* ---------------------------
+     Our sponsors styles
+------------------------------ */
+
+
+.sponsors-subtitle {
+    font-weight: 700;
+    font-size: 25px;
+text-align: center;
+}
+
+.sponsors-des {
+    text-align: center;
+    color: #727272;
+    margin-top: 24px;
+    margin-bottom: 50px;
+}
+
+.sponsors-image {
+    display: flex;
+    gap: 60px;
+    margin-left: 140px;
+    margin-bottom: 50px;
+    
+}
+.image-part{
+    transition: width 1s, height 1s, transform 1s;
+}
+.image-part:hover{
+    transform: rotate(30deg);
+}
+
+/* Extra Section*/
+
+.contact {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin: 10px 130px;
+
+}
+
+.contact .section-title {
+    text-align: left;
+    margin: 25px 0px;
+    font-size: 30px;
+    font-weight: 600;
+   
+}
+.section-description{
+margin: 25px 0px;
+color: #727272;
+}
+.contact input,
+textarea {
+    margin-bottom: 24px;
+    border: 0;
+    border-radius: 5px;
+    width: 80%;
+    padding: 18px 30px;
+
+}
+
+.contact a {
+    text-decoration: none;
+}
+
+
+
+
+/* Footer Part */
+
+.footer {
+    background: #FFF4E7;
+    border-radius: 8px;
+    color: #424242;
+    padding: 30px 250px;
+    text-align: center;
+    margin: 0px 130px;
+}
+
