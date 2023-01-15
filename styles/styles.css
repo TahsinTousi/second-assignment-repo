@@ -6,30 +6,23 @@
 .header {
     background: rgba(255, 144, 14, 0.1);
     width: 100%;
-
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     padding: 40px 150px;
-
-
 }
 
 nav ul {
     display: flex;
     font-weight: 500;
     gap: 35px;
-
-
 }
-
 
 nav li {
     list-style: none;
     color: #424242;
-
 }
 
 .nav-title {
@@ -46,14 +39,12 @@ nav li {
 
 .banner-title {
     font-size: 55px;
-    /* font-weight: 700; */
-
+    font-weight: 700;
 }
 
 .banner-text {
     margin: 20px 200px;
     color: #424242;
-
 }
 
 .btn-primary {
@@ -64,12 +55,12 @@ nav li {
     border: none;
     background: orangered;
     padding: 20px 25px;
-   
 }
+
 .btn-primary:hover {
-  
-    background-color: lightseagreen;
+    background-color: rgb(54, 32, 178);
 }
+
 .banner-img {
     height: 50%;
     width: 50%;
@@ -94,9 +85,13 @@ nav li {
     gap: 10px;
 }
 
-/* .title {
-    font-size: 45px;
-} */
+.image-ani {
+    transition: width 1s, height 1s, transform 1s;
+}
+
+.image-ani:hover {
+    transform: rotate(3deg);
+}
 
 .description {
     margin: 24px 0px;
@@ -136,9 +131,8 @@ Features you will love & enjoy
     padding-left: 20px;
     font-weight: 700;
     font-size: 30px;
-    border-left: 7px solid #FF900E;;
+    border-left: 7px solid #FF900E;
     border-width: 5px;
-
 }
 
 .feature-box {
@@ -149,7 +143,8 @@ Features you will love & enjoy
     margin-bottom: 20px;
     transition: width 1s, height 1s, transform 1s;
 }
-.feature-box:hover{
+
+.feature-box:hover {
     transform: rotate(8deg);
 }
 
@@ -165,13 +160,12 @@ Features you will love & enjoy
 }
 
 .feature-section .feature-img img {
-
     width: 550px;
     height: 100%;
 }
 
 .btn-second {
-    position:absolute;
+    position: absolute;
     top: 410%;
     left: 45%;
     z-index: 2;
@@ -184,24 +178,28 @@ Features you will love & enjoy
     padding: 30px 35px;
 }
 
+.small-text {
+    font-size: 15px;
+    font-weight: 300;
+}
 /* ---------------------------
     Some Facts Styles
 ------------------------------ */
 
 .some-facts-sec {
     margin: 100px 140px;
-
 }
-.some-facts-des{
+
+.some-facts-des {
     margin: 30px 0px;
     color: #727272;
 }
+
 .some-facts-img {
     display: flex;
     text-align: center;
     gap: 50px;
     margin-left: 50px;
-      
 }
 
 .add-image {
@@ -212,12 +210,12 @@ Features you will love & enjoy
     margin-top: 40px;
     border: 1px solid #FF900E;
     transition: width 1s, height 1s, transform 1s;
-
 }
+
 .add-image:hover {
     width: 120px;
     height: 120px;
-    transform: rotate(50deg);
+    transform: rotate(40deg);
 }
 
 .some-score {
@@ -225,18 +223,15 @@ Features you will love & enjoy
     font-weight: 600;
     color: #424242;
     margin: 5px 0px;
-
 }
 
 /* ---------------------------
      Our sponsors styles
 ------------------------------ */
-
-
 .sponsors-subtitle {
     font-weight: 700;
     font-size: 25px;
-text-align: center;
+    text-align: center;
 }
 
 .sponsors-des {
@@ -251,18 +246,19 @@ text-align: center;
     gap: 60px;
     margin-left: 140px;
     margin-bottom: 50px;
-    
 }
-.image-part{
+
+.image-part {
     transition: width 1s, height 1s, transform 1s;
 }
-.image-part:hover{
+
+.image-part:hover {
     transform: rotate(30deg);
 }
 
 /* Extra Blog Section*/
 
-.extra-title{
+.extra-title {
     text-align: center;
     font-size: 24px;
     font-weight: 700;
@@ -322,12 +318,13 @@ text-align: center;
     margin: 25px 0px;
     font-size: 30px;
     font-weight: 600;
-   
 }
-.section-description{
-margin: 25px 0px;
-color: #727272;
+
+.section-description {
+    margin: 25px 0px;
+    color: #727272;
 }
+
 .contact input,
 textarea {
     margin-bottom: 24px;
@@ -340,6 +337,7 @@ textarea {
 .contact a {
     text-decoration: none;
 }
+
 /* Footer Part */
 
 .footer {
@@ -356,26 +354,23 @@ textarea {
 -------------------------*/
 /* Mobile Devices */
 @media screen and (max-width: 576px) {
-    .header{
+    .banner {}
+
+    .header {
         width: 100%;
     }
-    
-    .some-facts-img {
-      flex-direction: column;
-      align-items: center;
 
+    .some-facts-img {
+        flex-direction: column;
+        align-items: center;
     }
-.blog{
-    flex-direction: column;
-}
-    .blogs{
-        
+
+    .blog {
+        flex-direction: column;
+    }
+
+    .blogs {
+
         grid-template-columns: repeat(1, 1fr);
-        
-     
     }
-    
-}
-.hide{
-    display: none;
 }
